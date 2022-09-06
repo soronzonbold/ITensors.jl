@@ -1,7 +1,7 @@
 using ITensors
 using ITensorGPU
 
-import ITensors: space, state, op
+import ITensors: space, state, op, apply
 
 space(::SiteType"Qubit") = 2
 state(::SiteType"Qubit", ::StateName"0") = 1
